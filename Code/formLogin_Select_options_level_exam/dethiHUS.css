@@ -1,0 +1,165 @@
+/*dang nhap, dang ki */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    .row.content {height: 450px}
+    
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    .login a{
+      text-decoration:none;
+    }
+    .login:hover h1{
+      color: red;
+    }
+    
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {
+        height:auto;
+      } 
+    }
+/*Tao form dang ki, dang nhap*/
+ input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+/* Add a background color when the inputs get focus */
+ input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+label{
+  float: left;
+}
+.cancelbtn {
+    float: left;
+    padding: 10px 16px;
+    background-color: #f44336;
+    border-radius: 5px;
+    color: white;
+    margin: 0 30px;
+}
+
+.cancelbtn, .signupbtn {
+  width: 30%;
+}
+.signupbtn{
+  float:right;
+  padding: 10px 16px;
+  background-color: #4CAF50;
+  border-radius: 5px;
+  color: white;
+  margin-right: 30px;
+}
+
+.container {
+    padding: 16px;
+    width: 100%;
+}
+
+
+.modal,.modal2 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: auto; 
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 50%; 
+}
+
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+ 
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.select_exam{
+
+}
+.select_exam .col-sm-6:hover{
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Lua chon khoi thi va cap do thi*/
+.select_exam .col-sm-6{
+  height: 320px;
+  position: relative;
+}
+.select_exam .content{
+  position: absolute;
+  top:10%;
+  left: 50%;
+  z-index: 1;
+}
+.select_exam img{
+  width: 100%; 
+  height: 320px;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: -1;
+}
+.select_exam .level{
+  position: absolute;
+  top:30%;
+  left: 57%;
+  z-index: 1;
+}
+.select_exam label{
+  padding: 5px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+}

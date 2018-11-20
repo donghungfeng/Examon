@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TRANG THI TRỰC TUYẾN</title>
+	 <meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="dethiHUS.css">
+</head>
+<body>
+	<!-- Tao dang nhap va dang xuat cho trang web -->
+	<nav class="navbar navbar-inverse">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>                        
+			    </button>
+      			<a class="navbar-brand" href="#">Đề thi HUS</a>
+    		</div>
+    		<div class="collapse navbar-collapse dropdown" id="myNavbar">
+      			<!-- <ul class="nav navbar-nav navbar-right dropdown-toggle" data-toggle="dropdown" style="margin-right: 5%;position: relative;">
+        			<li ><a href="#"><span class="glyphicon glyphicon-user"></span> Trần thanh Tài <span class="glyphicon glyphicon-triangle-bottom" style="font-size: 10px;"></span></a></li>
+      			</ul>
+      			<ul class="dropdown-menu  dropdown-menu-right" style="margin-right: 5%;">
+      				<li style="border-bottom: 0.5px solid #e6e6e6;"><a href="#">Thông tin cá nhân</a></li>
+      				<li style="border-bottom: 0.5px solid #e6e6e6;"><a href="#">Lịch sử làm bài</a></li>
+      				<a href="#">Bảng xếp hạng</a>
+      				<li><a href="#">Đăng xuất</a></li>
+    			</ul> -->
+    			<ul class="nav navbar-nav navbar-right" style="margin-right: 2%;">
+    				<li onclick="document.getElementById('id02').style.display='block'" style="width:auto;"><a href="#"><span class="glyphicon glyphicon-user"></span> Đăng nhập</a></li>
+    				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Đăng kí</a></li>
+    			</ul>
+
+    		</div>
+  		</div>
+	</nav>
+  	<!-- Dang nhap -->
+	<div class="container-fluid text-center">    
+	  <div class="row content text-center">
+	    <div class="col-sm-12 text-center login" style="margin-top: 5%; "> 
+	    	<a href="#" style="color:#337ab7;">
+		    	<div class="row">
+		    		<div class="col-sm-8 text-center" style="width: 90%; left: 5%;">
+		    			<div class="content" style="display: inline-block;width: 65%;float: left;margin-top: 5%;">
+		    				<h1>Tham gia thi để xem vốn kiến thức của mình đến đâu nào</h1>
+		    				<a href="#"><span style="float: left;margin-left: 10%;margin-top: 10%;" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Đăng kí thi thử miến phí</span></a>
+		    			</div>
+		    			<div class="img_header" style="display: inline-block;width: 35%;">
+		    				<img src="logo1.JPG">
+		    			</div>
+		    		</div>
+		    	</div>
+		    </a>
+	    </div>
+	    <div id="id02" class="modal2">
+						<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+						<form class="modal-content" action="/action_page.php">
+							<div class="container">
+								<h1 class="text-center">ĐĂNG NHẬP</h1>
+								<hr>
+								<label for="fname"><b>Tên đăng nhập</b></label>
+								<input type="text" placeholder="Nhập tên" name="name" required>
+
+								<label for="psw"><b>Password</b></label>
+								<input type="password" placeholder="Enter Password" name="psw" required>
+
+								<label for="psw-repeat"><b>Repeat Password</b></label>
+								<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+								<div style="height: 50px;">
+									<label>
+									<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+									</label>
+									<br>
+								</div>
+			    			<button type="btn button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+			    			<button type="submit" class="signupbtn">Đăng kí</button>
+				  		</form>
+					</div>	
+	    <!-- Dang ki nhanh thi thu -->
+	    <div id="id01" class="modal">
+		  	<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		  	<form class="modal-content" action="/action_page.php">
+		    	<div class="container">
+		      		<h1 style="width: ">ĐĂNG KÍ THI THỬ</h1>
+				    <hr>
+				    <label for="fname"><b>Tên đăng nhập</b></label>
+				    <input type="text" placeholder="Nhập tên" name="name" required>
+					<label for="email"><b>Email</b></label>
+				    <input type="text" placeholder="Nhập mail của bạn" name="email" required>
+		      <div class="clearfix">
+		        <button type="btn button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+		        <button type="submit" class="signupbtn"><a href="login_succ_select_exam.html">Đăng kí</a></button>
+		      </div>
+		    </div>
+		  </form>
+		</div>
+	  </div>
+	</div>
+		
+	<script>
+		var modal = document.getElementById('id01');
+		var modal2 = document.getElementById('id02');
+		window.onclick = function(event) {
+    	if (event.target == modal) {
+        	modal.style.display = "none";
+    	}
+	}
+	window.onclick = function(event) {
+	 	if(event.target == modal2){
+    	 	modal2.style.display = "none";
+    	}
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TRANG THI TRỰC TUYẾN</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="dethiHUS.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>                        
+			    </button>
+      			<a class="navbar-brand" href="#">Đề thi HUS</a>
+    		</div>
+    		<div class="collapse navbar-collapse dropdown" id="myNavbar">
+      			<!-- <ul class="nav navbar-nav navbar-right dropdown-toggle" data-toggle="dropdown" style="margin-right: 5%;position: relative;">
+        			<li ><a href="#"><span class="glyphicon glyphicon-user"></span> Trần thanh Tài <span class="glyphicon glyphicon-triangle-bottom" style="font-size: 10px;"></span></a></li>
+      			</ul>
+      			<ul class="dropdown-menu  dropdown-menu-right" style="margin-right: 5%;">
+      				<li style="border-bottom: 0.5px solid #e6e6e6;"><a href="#">Thông tin cá nhân</a></li>
+      				<li style="border-bottom: 0.5px solid #e6e6e6;"><a href="#">Lịch sử làm bài</a></li>
+      				<a href="#">Bảng xếp hạng</a>
+      				<li><a href="#">Đăng xuất</a></li>
+    			</ul> -->
+    			<ul class="nav navbar-nav navbar-right" style="margin-right: 2%;">
+    				<li onclick="document.getElementById('id02').style.display='block'" style="width:auto;"><a href="#"><span class="glyphicon glyphicon-user"></span> Đăng nhập</a></li>
+    				  	
+    				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Đăng kí</a></li>
+    			</ul>
+
+    		</div>
+  		</div>
+	</nav>
+	<!-- Lua chon 2 khoi thi va cap do thi -->
+	<div class="container-fluid text-center">    
+	  <div class="row content text-center">
+	  		<div class="col-sm-12 text-center select_exam" style="margin-top: 10%;">
+	  			<div class="col-sm-6">
+	  				<div class="content"><h3>KHOA HỌC TỰ NHIÊN</h3></div>
+	  				<img src="khtn.jpg" class="img-responsive">
+	  				<div class="level" >
+					  	<form action="action_page.php">
+
+						    <label for="level" >Cấp độ: </label>
+						    <select id="level" name="level" style="margin-top: 5px;">
+						      <option value="lev1">Cấp độ 1</option>
+						      <option value="lev2">Cấp độ 2</option>
+						      <option value="lev3">Cấp độ 3</option>
+						      <option value="lev4">Cấp độ 4</option>
+						      <option value="lev5">Cấp độ 5</option>
+						      <option value="lev6">Cấp độ 6</option>
+						      <option value="lev7">Cấp độ 7</option>
+						      <option value="lev8">Cấp độ 8</option>
+						      <option value="lev9">Cấp độ 9</option>
+						      <option value="lev10">Cấp độ 10</option>
+						    </select>
+
+						   <!--  <input type="submit" value="Submit" style="display: block;margin-top: 50%;margin-left: 25%;"> -->
+						   <button type="submit" class="signupbtn" style="display: block;margin-top: 20%;width: 100px;"><a href="dethi.html">Bắt đầu</a></button>
+					  	</form>
+	  				</div>
+	  			</div>
+	  			<div class="col-sm-6">
+	  				<div class="content"><h3>KHOA HỌC XÃ HỘI</h3></div>
+	  				<img src="khxh.JPG" class="img-responsive" >
+	  				<div class="level" >
+					  	<form action="action_page.php">
+
+						    <label for="level" >Cấp độ: </label>
+						    <select id="level" name="level" style="margin-top: 5px;">
+						      <option value="lev1">Cấp độ 1</option>
+						      <option value="lev2">Cấp độ 2</option>
+						      <option value="lev3">Cấp độ 3</option>
+						      <option value="lev4">Cấp độ 4</option>
+						      <option value="lev5">Cấp độ 5</option>
+						      <option value="lev6">Cấp độ 6</option>
+						      <option value="lev7">Cấp độ 7</option>
+						      <option value="lev8">Cấp độ 8</option>
+						      <option value="lev9">Cấp độ 9</option>
+						      <option value="lev10">Cấp độ 10</option>
+						    </select>
+
+						   <!--  <input type="submit" value="Submit" style="display: block;margin-top: 50%;margin-left: 25%;"> -->
+						    <button type="submit" class="signupbtn" style="display: block;margin-top: 20%;width: 100px;left: 0;">Bắt đầu</button>
+					  	</form>
+	  				</div>
+	  			</div>
+	  		</div>
+	  </div>
+	</div>
+</body>
+</html>
