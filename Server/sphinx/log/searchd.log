@@ -1,0 +1,141 @@
+[Sun Nov 18 16:12:22.788 2018] [27996] listening on all interfaces, port=9312
+[Sun Nov 18 16:12:22.790 2018] [27996] listening on all interfaces, port=9306
+[Sun Nov 18 16:12:22.796 2018] [27996] WARNING: index 'butchiso': prealloc: failed to open D:\sphinx\data\butchiso.sph: No such file or directory; NOT SERVING
+[Sun Nov 18 16:12:22.796 2018] [27996] FATAL: no valid indexes to serve
+[Sun Nov 18 16:12:22.798 2018] [27996] shutdown complete
+[Sun Nov 18 16:13:03.422 2018] [15124] listening on all interfaces, port=9312
+[Sun Nov 18 16:13:03.424 2018] [15124] listening on all interfaces, port=9306
+[Sun Nov 18 16:13:03.450 2018] [15124] accepting connections
+[Sun Nov 18 16:13:03.450 2018] [31584] prereading 1 indexes
+[Sun Nov 18 16:13:03.451 2018] [31584] prereaded 1 indexes in 0.001 sec
+[Sun Nov 18 16:13:50.575 2018] [15124] caught SIGTERM, shutting down
+[Sun Nov 18 16:13:50.754 2018] [15124] shutdown complete
+[Sun Nov 18 16:15:27.658 2018] [14460] listening on all interfaces, port=9312
+[Sun Nov 18 16:15:27.660 2018] [14460] listening on all interfaces, port=9306
+[Sun Nov 18 16:15:27.685 2018] [26868] prereading 1 indexes
+[Sun Nov 18 16:15:27.685 2018] [14460] accepting connections
+[Sun Nov 18 16:15:27.685 2018] [26868] prereaded 1 indexes in 0.000 sec
+[Sun Nov 18 16:20:55.789 2018] [14460] caught SIGTERM, shutting down
+[Sun Nov 18 16:20:56.029 2018] [14460] shutdown complete
+[Sun Nov 18 16:21:20.066 2018] [32068] listening on all interfaces, port=9312
+[Sun Nov 18 16:21:20.068 2018] [32068] listening on all interfaces, port=9306
+[Sun Nov 18 16:21:20.102 2018] [32116] prereading 1 indexes
+[Sun Nov 18 16:21:20.102 2018] [32068] accepting connections
+[Sun Nov 18 16:21:20.102 2018] [32116] prereaded 1 indexes in 0.000 sec
+[Sun Nov 18 16:22:53.929 2018] [32068] caught SIGTERM, shutting down
+[Sun Nov 18 16:22:54.143 2018] [32068] shutdown complete
+[Sun Nov 18 16:24:02.806 2018] [30808] listening on all interfaces, port=9312
+[Sun Nov 18 16:24:02.808 2018] [30808] listening on all interfaces, port=9306
+[Sun Nov 18 16:24:02.837 2018] [32400] prereading 1 indexes
+[Sun Nov 18 16:24:02.837 2018] [30808] accepting connections
+[Sun Nov 18 16:24:02.837 2018] [32400] prereaded 1 indexes in 0.000 sec
+[Tue Nov 20 00:03:03.692 2018] [5296] listening on all interfaces, port=9312
+[Tue Nov 20 00:03:03.696 2018] [5296] listening on all interfaces, port=9306
+[Tue Nov 20 00:03:03.848 2018] [5296] accepting connections
+[Tue Nov 20 00:03:03.883 2018] [5636] prereading 1 indexes
+[Tue Nov 20 00:03:03.883 2018] [5636] prereaded 1 indexes in 0.000 sec
+[Tue Nov 20 01:00:31.606 2018] [5296] shutdown complete
+[Tue Nov 20 09:29:27.140 2018] [5640] listening on all interfaces, port=9312
+[Tue Nov 20 09:29:27.143 2018] [5640] listening on all interfaces, port=9306
+[Tue Nov 20 09:29:27.533 2018] [5640] accepting connections
+[Tue Nov 20 09:29:27.696 2018] [6124] prereading 1 indexes
+[Tue Nov 20 09:29:27.697 2018] [6124] prereaded 1 indexes in 0.001 sec
+[Wed Nov 21 01:22:00.081 2018] [5640] shutdown complete
+[Wed Nov 21 12:08:41.607 2018] [5732] listening on all interfaces, port=9312
+[Wed Nov 21 12:08:41.749 2018] [5732] listening on all interfaces, port=9306
+[Wed Nov 21 12:08:42.054 2018] [5732] accepting connections
+[Wed Nov 21 12:08:42.344 2018] [5480] prereading 1 indexes
+[Wed Nov 21 12:08:42.345 2018] [5480] prereaded 1 indexes in 0.001 sec
+[Thu Nov 22 00:14:27.414 2018] [5732] shutdown complete
+[Thu Nov 22 13:56:53.556 2018] [6156] listening on all interfaces, port=9312
+[Thu Nov 22 13:56:53.562 2018] [6156] listening on all interfaces, port=9306
+[Thu Nov 22 13:56:53.636 2018] [6156] accepting connections
+[Thu Nov 22 13:56:53.636 2018] [6372] prereading 1 indexes
+[Thu Nov 22 13:56:53.651 2018] [6372] prereaded 1 indexes in 0.015 sec
+[Fri Nov 23 02:45:24.846 2018] [6156] shutdown complete
+[Fri Nov 23 18:12:24.507 2018] [5748] listening on all interfaces, port=9312
+[Fri Nov 23 18:12:24.511 2018] [5748] listening on all interfaces, port=9306
+[Fri Nov 23 18:12:24.668 2018] [5748] accepting connections
+[Fri Nov 23 18:12:24.670 2018] [5888] prereading 1 indexes
+[Fri Nov 23 18:12:24.675 2018] [5888] prereaded 1 indexes in 0.005 sec
+[Sat Nov 24 02:43:01.037 2018] [5748] shutdown complete
+[Sat Nov 24 10:35:33.672 2018] [5336] listening on all interfaces, port=9312
+[Sat Nov 24 10:35:33.762 2018] [5336] listening on all interfaces, port=9306
+[Sat Nov 24 10:35:34.058 2018] [5336] accepting connections
+[Sat Nov 24 10:35:34.071 2018] [5816] prereading 1 indexes
+[Sat Nov 24 10:35:34.098 2018] [5816] prereaded 1 indexes in 0.027 sec
+[Mon Nov 26 02:02:26.489 2018] [5336] shutdown complete
+[Mon Nov 26 07:53:20.293 2018] [5476] listening on all interfaces, port=9312
+[Mon Nov 26 07:53:20.297 2018] [5476] listening on all interfaces, port=9306
+[Mon Nov 26 07:53:20.519 2018] [5476] accepting connections
+[Mon Nov 26 07:53:20.524 2018] [5780] prereading 1 indexes
+[Mon Nov 26 07:53:20.524 2018] [5780] prereaded 1 indexes in 0.001 sec
+[Wed Nov 28 14:31:49.391 2018] [4420] listening on all interfaces, port=9312
+[Wed Nov 28 14:31:49.394 2018] [4420] listening on all interfaces, port=9306
+[Wed Nov 28 14:31:49.629 2018] [4420] binlog: replaying log ./binlog.001
+[Wed Nov 28 14:31:49.632 2018] [4420] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Nov 28 14:31:49.633 2018] [4420] binlog: finished replaying ./binlog.001; 0.0 MB in 0.000 sec
+[Wed Nov 28 14:31:49.634 2018] [4420] binlog: finished replaying total 1 in 0.004 sec
+[Wed Nov 28 14:31:49.656 2018] [4420] accepting connections
+[Wed Nov 28 14:31:49.666 2018] [5396] prereading 1 indexes
+[Wed Nov 28 14:31:49.667 2018] [5396] prereaded 1 indexes in 0.001 sec
+[Wed Nov 28 14:32:08.403 2018] [4420] shutdown complete
+[Wed Nov 28 15:13:25.006 2018] [5488] listening on all interfaces, port=9312
+[Wed Nov 28 15:13:25.007 2018] [5488] listening on all interfaces, port=9306
+[Wed Nov 28 15:13:25.073 2018] [5488] binlog: replaying log ./binlog.001
+[Wed Nov 28 15:13:25.077 2018] [5488] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Wed Nov 28 15:13:25.077 2018] [5488] binlog: finished replaying ./binlog.001; 0.0 MB in 0.000 sec
+[Wed Nov 28 15:13:25.077 2018] [5488] binlog: finished replaying total 1 in 0.003 sec
+[Wed Nov 28 15:13:25.085 2018] [5488] accepting connections
+[Wed Nov 28 15:13:25.085 2018] [5756] prereading 1 indexes
+[Wed Nov 28 15:13:25.101 2018] [5756] prereaded 1 indexes in 0.017 sec
+[Thu Nov 29 01:27:31.476 2018] [5488] shutdown complete
+[Thu Nov 29 12:06:51.808 2018] [5724] listening on all interfaces, port=9312
+[Thu Nov 29 12:06:52.165 2018] [5724] listening on all interfaces, port=9306
+[Thu Nov 29 12:06:52.343 2018] [5724] binlog: replaying log ./binlog.001
+[Thu Nov 29 12:06:52.346 2018] [5724] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Thu Nov 29 12:06:52.346 2018] [5724] binlog: finished replaying ./binlog.001; 0.0 MB in 0.000 sec
+[Thu Nov 29 12:06:52.347 2018] [5724] binlog: finished replaying total 1 in 0.003 sec
+[Thu Nov 29 12:06:52.426 2018] [5724] accepting connections
+[Thu Nov 29 12:06:52.491 2018] [4952] prereading 1 indexes
+[Thu Nov 29 12:06:52.492 2018] [4952] prereaded 1 indexes in 0.001 sec
+[Fri Nov 30 01:29:11.464 2018] [5724] shutdown complete
+[Sat Dec  1 09:52:53.533 2018] [5484] listening on all interfaces, port=9312
+[Sat Dec  1 09:52:53.537 2018] [5484] listening on all interfaces, port=9306
+[Sat Dec  1 09:52:53.725 2018] [5484] binlog: replaying log ./binlog.001
+[Sat Dec  1 09:52:53.728 2018] [5484] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Sat Dec  1 09:52:53.729 2018] [5484] binlog: finished replaying ./binlog.001; 0.0 MB in 0.000 sec
+[Sat Dec  1 09:52:53.729 2018] [5484] binlog: finished replaying total 1 in 0.003 sec
+[Sat Dec  1 09:52:53.743 2018] [5484] accepting connections
+[Sat Dec  1 09:52:53.781 2018] [5924] prereading 1 indexes
+[Sat Dec  1 09:52:53.793 2018] [5924] prereaded 1 indexes in 0.011 sec
+[Sat Dec  1 23:14:04.926 2018] [5484] shutdown complete
+[Sun Dec  2 10:25:16.871 2018] [5644] listening on all interfaces, port=9312
+[Sun Dec  2 10:25:16.875 2018] [5644] listening on all interfaces, port=9306
+[Sun Dec  2 10:25:17.009 2018] [5644] binlog: replaying log ./binlog.001
+[Sun Dec  2 10:25:17.011 2018] [5644] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Sun Dec  2 10:25:17.012 2018] [5644] binlog: finished replaying ./binlog.001; 0.0 MB in 0.000 sec
+[Sun Dec  2 10:25:17.012 2018] [5644] binlog: finished replaying total 1 in 0.003 sec
+[Sun Dec  2 10:25:17.025 2018] [5644] accepting connections
+[Sun Dec  2 10:25:17.026 2018] [5872] prereading 1 indexes
+[Sun Dec  2 10:25:17.026 2018] [5872] prereaded 1 indexes in 0.000 sec
+[Mon Dec  3 00:34:39.523 2018] [5644] shutdown complete
+[Mon Dec  3 10:17:16.273 2018] [5672] listening on all interfaces, port=9312
+[Mon Dec  3 10:17:16.277 2018] [5672] listening on all interfaces, port=9306
+[Mon Dec  3 10:17:16.657 2018] [5672] binlog: replaying log ./binlog.001
+[Mon Dec  3 10:17:16.660 2018] [5672] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Mon Dec  3 10:17:16.660 2018] [5672] binlog: finished replaying ./binlog.001; 0.0 MB in 0.000 sec
+[Mon Dec  3 10:17:16.662 2018] [5672] binlog: finished replaying total 1 in 0.004 sec
+[Mon Dec  3 10:17:16.677 2018] [5672] accepting connections
+[Mon Dec  3 10:17:16.717 2018] [5960] prereading 1 indexes
+[Mon Dec  3 10:17:16.718 2018] [5960] prereaded 1 indexes in 0.001 sec
+[Tue Dec  4 00:04:43.584 2018] [5672] shutdown complete
+[Tue Dec  4 19:44:07.449 2018] [6404] listening on all interfaces, port=9312
+[Tue Dec  4 19:44:07.455 2018] [6404] listening on all interfaces, port=9306
+[Tue Dec  4 19:44:07.611 2018] [6404] binlog: replaying log ./binlog.001
+[Tue Dec  4 19:44:07.614 2018] [6404] binlog: replay stats: 0 rows in 0 commits; 0 updates, 0 reconfigure; 0 indexes
+[Tue Dec  4 19:44:07.614 2018] [6404] binlog: finished replaying ./binlog.001; 0.0 MB in 0.000 sec
+[Tue Dec  4 19:44:07.615 2018] [6404] binlog: finished replaying total 1 in 0.004 sec
+[Tue Dec  4 19:44:07.628 2018] [6404] accepting connections
+[Tue Dec  4 19:44:07.646 2018] [6624] prereading 1 indexes
+[Tue Dec  4 19:44:07.647 2018] [6624] prereaded 1 indexes in 0.001 sec
