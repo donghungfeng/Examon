@@ -1,0 +1,274 @@
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+header{
+  width: 330px;
+  position: fixed;
+}
+label{
+    margin-top: 5px;
+    float: left;
+    font-size: 18px;
+}
+button{
+  margin-left: 25%;
+  margin-top: 10%;
+  width: 20%;
+}
+.header_right{
+  width: 100%;
+}
+.select_content,.result{
+  width: 100%;
+}
+#mySidepanel{
+  font-size: 16px;
+  overflow: hidden;
+  width: 100%;
+}
+#mySidepanel ul{
+  list-style-type: none;
+  list-style-position: inside;
+  padding: 0;
+  margin-left: 10px;
+}
+#mySidepanel ul li{
+  width: 80%;
+  height: 55px;
+  padding: 13px;
+  border-radius: 4px;
+  margin: 7px 0;
+}
+
+#mySidepanel ul li a{
+  text-decoration: none;
+  color: #a6a6a6;
+}
+#mySidepanel ul li a span:nth-child(2){
+  color: #4d4d4d;
+}
+#mySidepanel ul li:hover a{
+  color: #2392ec;
+}
+#mySidepanel ul li:hover a span:nth-child(2){
+  color: #2392ec;
+}
+#mySidepanel ul li:hover{
+  background-color: #f5f5f5;
+}
+#mySidepanel ul li.active{
+  background-color: #f5f5f5; 
+}
+#mySidepanel ul li.active a{
+    color: #2392ec;
+}
+#mySidepanel ul li.active span:nth-child(2){
+ color: #2392ec; 
+}
+#mySidepanel ul li.logo{
+	height: 100px;
+	background-color: white;
+}
+#mySidepanel ul li.logo .arrow{
+	display: inline-block;
+	float: left;
+	height: 80px;
+	width: 60%;
+	background-size: cover;
+	overflow: hidden;
+}
+#mySidepanel ul li.logo .arrow img{
+	width: 100%;
+	height: 80px;
+}
+#mySidepanel ul li.logo .glyphicon-chevron-left{
+	float: right;
+	font-size:18px;
+	margin-right: 0;
+	padding: 40px 0;
+	height: 80px;
+	color: #2392ec;
+}
+#mySidepanel hr{
+  width: 80%;
+  margin:0;
+}
+#mySidepanel span{
+  font-size: 18px;
+  margin:0 15px;
+}
+#select{
+    margin-left: 320px;
+    width: calc(100%-320px);
+    padding-top: 10%;
+}
+.header_top{
+	display: none;
+}
+.header_bottom{
+	display: none;
+}
+.select_content .col-sm-4 {
+  width: 49%;
+  height: 300px;
+  position: relative;
+}
+.select_content .col-sm-4 img{
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: -1;
+  height: 300px;
+  background-size: cover;
+  width: 100%;
+  }
+
+.select_content .col-sm-4:hover img{
+  opacity: 0.9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.select_content .col-sm-4 .content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 0 auto;
+  height: 300px;
+}
+.select_content .col-sm-4 .content p{
+  display: inline-block;
+  margin-top: 20%;
+  width: 60%;
+  border: 0.5px solid #595959;
+  border-radius: 5px;
+  font-size: 22px;
+  color: #595959;
+}
+.select_content .col-sm-4 .mot p{
+  color: white;
+  border: 0.5px solid white;
+}
+.select_content .col-sm-4 .mot:hover p{
+  background-color: white;
+  color: #595959;
+}
+.select_content .col-sm-4 label{
+  margin-left: 22%;
+  color: #595959;
+}
+.select_content .col-sm-4 .mot label{
+  color: white;
+}
+.select_content .col-sm-4:hover p{
+  background-color:  #595959;
+  color: white;
+  overflow: hidden;
+}
+.select_content .form_exam{
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  opacity: 0;
+}
+.select_content .form_exam .col-sm-3{
+  width: 30%;
+}
+.select_content .form_exam button a{
+  text-decoration: none;
+  color: white;
+  height: 100px;
+}
+.khtn img, .khxh img{
+  height: 300px;
+}
+@media only screen and (max-width: 900px) {
+	.header_right{
+		display: none;
+	}
+  #select{
+    width: 100%;
+    margin:0;
+  }
+	.col-sm-8{
+		width: 100%;
+	}
+	.header_top{
+		background-color: #f5f5f5;
+		height: 60px;
+		padding: 0;
+		font-size: 20px;
+		display: block;
+	}
+	.header_top .logo{
+		height: 60px;
+		display: inline-block;
+		width: 18%;
+	}
+	.header_top .logo img{
+		height: 60px;
+    width: 90%;
+	}
+	.header_top .text {
+		 width: 81%;
+		 height: 100%;
+		 padding: 15px 0;
+	}
+	.header_bottom {
+		background-color: #f5f5f5;
+		height: 60px;
+		padding: 0;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		z-index: 10;
+		display: block;
+	}
+	.header_bottom ul{
+		padding: 0;
+		list-style-type: none;
+		height: 60px;
+		width: 100%;
+	}
+	.header_bottom ul li{
+		display: inline-block;
+		height: 60px;
+		width: 24.5%;
+	}
+	.header_bottom ul li a{
+		text-decoration: none;
+	}
+	.header_bottom ul li a span{
+		width: 100%;
+		height: 60px;
+		font-size: 23px;
+		padding: 15px 0;
+	}
+	.header_bottom ul li:hover{
+		background-color: white;
+	}
+	.select_content{
+		margin-bottom: 20%;
+	}
+}
+@media only screen and (max-width: 768px) {
+  .select_content .col-sm-4{
+		width: 100%;
+	}
+  .col-sm-4{
+    margin-bottom: 5%;
+  }
+  .select_content .form_exam{
+    top:0;
+  }
+}

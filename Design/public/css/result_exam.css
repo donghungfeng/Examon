@@ -1,0 +1,96 @@
+#result{
+	margin-left: 320px;
+    width: calc(100%-320px);
+    padding-top:5%;
+}
+.result .detail{
+	height: 500px;
+}
+.result .detail .point_user, .zoom{
+	width: 25%;
+	height: 45%;
+	background-color: #d9d9d9;
+	padding: 50px;
+	display: inline-block;
+	float: left;
+}
+.result .detail .point_user p, .zoom p{
+	font-size: 5vw;
+}
+.result .detail .point_user p:first-child, .zoom p:first-child{
+	font-size: 2vw;
+}
+
+.result .detail .user_exam {
+	width: 73%;
+	margin-left: 10px;
+	float: left;
+}
+.result .detail .user_exam .exam_struc{
+	text-align:right;
+	margin-right: 7%;
+}
+.result .detail .user_exam .exam_struc .glyphicon-list-alt{
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 2%;
+}
+.result .detail .user_exam .exam_struc p{
+	display: inline-block;
+}
+.result .detail .user_exam .exam_struc .glyphicon-time{
+	display: inline-block;
+	margin-left: 3px;
+}
+.result .detail .acount_time .time_start,.time_exam .time_done{
+	 border: 1px solid black;
+	 width: 45%;
+	 margin-top: 5%;
+	 height: 70px;
+	 border-radius:5px;
+	 display: inline-block;
+	 float: left;
+}
+.result .detail .acount_time .time_start .glyphicon-time,.time_exam .time_done .glyphicon-ok-circle{
+	 font-size: 3vw;
+	 float: left;
+	 padding: 13px;
+	 border-right: 1px solid black;
+}
+.result .detail .acount_time .time_start .text,.time_exam .time_done .text{
+	float: left;
+	margin-left: 10px;
+}
+.result .detail .acount_time .time_start .time, .time_exam .time_done .time{
+	float: left;
+	margin-left: 10px;
+	font-size: 2vw;
+}
+.result .detail .time_exam .time_done{
+	float: right;
+}
+.zoom{
+	display: none;
+}
+@media only screen and ( max-width: 1200px){
+	.result .detail .acount_time .time_start .time{
+		font-size: 19px;
+	}
+	.result .detail .point_user{
+		display: none;
+	}
+	.result .detail .user_exam{
+		width: 100%;
+		margin: 0;
+	}
+	.result .detail .zoom{
+		display: block;
+		width: 100%;
+		margin-top: 10px;
+	}
+}
+@media only screen and ( max-width: 900px){
+	#result{
+		margin-left: 0;
+	}
+}
