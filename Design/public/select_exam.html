@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/select_exam.css">
+  	<script src="js/display_select.js"></script>
+</head>
+<body>
+	<header style="width: 330px;">
+		<div class="col-sm-3 header_right" style="width: 100%;">
+			<div id="mySidepanel" class="sidepanel">
+				<ul>
+					<li class="logo">
+						<div class="arrow">
+							<img src="img/logo.png" class="img-responsive">
+						</div>	
+					</li>
+					<hr>
+					<li class="home_page active">
+						<a href="index.html">
+							<span class="glyphicon glyphicon-home"></span><span class="content">Trang chủ</span>
+						</a>
+						
+					</li>
+					<li class="intro">
+						<a href="#">
+							<span class="glyphicon glyphicon-indent-left"></span class="content"><span class="content">Giới thiệu</span>
+						</a>
+					</li>
+					<li class="search" >
+						<a href="#">
+							<span class="glyphicon glyphicon-search"></span class="content"><span class="content">Tìm kiếm</span>
+						</a>
+					</li>
+					<li class="question" >
+						<a href="#">
+							<span class="glyphicon glyphicon-question-sign"></span class="content"><span class="content">Hỏi đáp</span>
+						</a>
+					</li>
+					<hr>
+					<li class="user">
+						<a href="#">
+							<span class="glyphicon glyphicon-user"></span><span class="content">Tài Trần</span>
+						</a>
+					</li>
+					<li class="history">
+						<a href="#">
+							<span class="glyphicon glyphicon-repeat"></span><span class="content">Lịch sử</span>
+						</a>
+					</li>
+					<li class="rank">
+						<a href="rank.html">
+							<span class="glyphicon glyphicon-th-list"></span><span class="content">Bảng xếp hạng</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="col-sm-8 header_top">
+		<div class="logo">
+			<img src="img/logo.png" class="img-responsive">
+		</div>
+		<marquee direction="right" class="text">Thử sức cùng</marquee>
+	</div>
+	<div class="container-fluid text-center" id="select">
+		<div class="col-sm-8 select_content">
+			<div class="row">
+				<div class="col-sm-4 text-center khtn">
+					<img src="img/KHTN.png" class="img-responsive">
+					<div class="content">
+						<p><b>KHOA HỌC TỰ NHIÊN</b></p>
+						<div class="form_exam text-center" id="khtn">
+							<form>
+								<input type="hidden" name="select_exam">
+								<div class="form-group">
+									<label for="level">Cấp độ</label>
+									<div class="row">
+										<div class="col-sm-3">
+											<select id="level" name="select_level" class="form-control">
+								      			<option value="level1">Cấp độ 1</option>
+								      			<option value="level2">Cấp độ 2</option>
+								      			<option value="level3">Cấp độ 3</option>
+								      			<option value="level4">Cấp độ 4</option>
+								      			<option value="level5">Cấp độ 5</option>
+								      			<option value="level6">Cấp độ 6</option>
+								      			<option value="level7">Cấp độ 7</option>
+								      			<option value="level8">Cấp độ 8</option>
+								      			<option value="level9">Cấp độ 9</option>
+								      			<option value="level10">Cấp độ 10</option>
+								      		</select>
+										</div>
+									</div>
+									<button type="submit" class="btn-success"><a href="dethi.html">Vào thi</a></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 text-center khxh" style="float: right;">
+						<img src="img/KHXH.jpg" class="img-responsive" class="img-responsive">
+						<div class="content mot">
+						<p><b>KHOA HỌC XÃ HỘI</b></p>
+						<div class="form_exam text-center" id="khxh">
+							<form>
+								<input type="hidden" name="select_exam" >
+								<div class="form-group">
+									<label for="level">Cấp độ</label>
+									<div class="row">
+										<div class="col-sm-3">
+											<select id="level" name="select_level" class="form-control">
+								      			<option value="level1">Cấp độ 1</option>
+								      			<option value="level2">Cấp độ 2</option>
+								      			<option value="level3">Cấp độ 3</option>
+								      			<option value="level4">Cấp độ 4</option>
+								      			<option value="level5">Cấp độ 5</option>
+								      			<option value="level6">Cấp độ 6</option>
+								      			<option value="level7">Cấp độ 7</option>
+								      			<option value="level8">Cấp độ 8</option>
+								      			<option value="level9">Cấp độ 9</option>
+								      			<option value="level10">Cấp độ 10</option>
+								      		</select>
+										</div>
+									</div>
+									<button type="submit" class="btn-success"><a href="dethi.html">Vào thi</a></button>
+								</div>
+							</form>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-8 text-center header_bottom">
+		<ul>
+			<li class="home">
+				<a href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+			</li>
+			<li class="user">
+				<a href="#"><span class="glyphicon glyphicon-user"></span></a>
+			</li>
+			<li class="rank">
+				<a href="rank.html"><span class="glyphicon glyphicon-th-list"></span></a>
+			</li>
+			<li class="question">
+				<a href="#"><span class="glyphicon glyphicon-question-sign"></span></a>
+			</li>
+		</ul>	
+	</div>
+</body>
+</html>
