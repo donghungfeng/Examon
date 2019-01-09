@@ -1,5 +1,5 @@
 # Examon
-**Examon** cho phép triển khai một hệ thống thi trực tuyến hoàn chỉnh với mọi khâu nghiệp vụ từ quản lý ngân hàng câu hỏi, hỗ trợ tổ chức thi, tới đánh giá kết quả và thống kê báo cáo. Phần mềm Examon đảm bảo tính bảo mật, chính xác, phù hợp với quy trình thi và tổ chức thi của các trường và đơn vị giáo dục.  
+> **Examon** cho phép triển khai một hệ thống thi trực tuyến hoàn chỉnh với mọi khâu nghiệp vụ từ quản lý ngân hàng câu hỏi, hỗ trợ tổ chức thi, tới đánh giá kết quả và thống kê báo cáo. Phần mềm Examon đảm bảo tính bảo mật, chính xác, phù hợp với quy trình thi và tổ chức thi của các trường và đơn vị giáo dục.  
 ## Các tính năng chính
 - Quản lí thông tin các khoa bộ môn.
 - Quản lí thông tin các môn thi.
@@ -24,4 +24,3 @@
  - Tốc độ truy cập ổn định, bảo mật tốt.
  - Dễ dàng nâng cấp, mở rộng.
  - Quản lý, cập nhật thông tin đơn giản, dễ sử dụng.
-
