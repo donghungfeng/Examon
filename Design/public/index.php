@@ -1,3 +1,4 @@
+<?php include('server.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,6 +21,22 @@
 
     <!-- Custom styles for this template -->
     <link href="css/clean-blog.min.css" rel="stylesheet">
+    <style type="text/css">
+        .subheading a{
+          color:white;
+        }
+        .subheading a:hover{
+          text-decoration: none;
+          color:red;
+          
+        }
+        .vtn{
+          transition: 0.5s;
+        }
+        .vtn:hover{
+          box-shadow: 6px 2px black;
+        }
+    </style>
 
   </head>
 
@@ -35,20 +52,33 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Trang chủ</a>
+              <a class="nav-link" href="index.php">Trang chủ</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">Giới thiệu</a>
             </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">Đăng nhập</a>
-            </li>
+            <?php if (isset($_SESSION["username"])): ?> 
+              <li class="nav-item">
+                <a><?php echo $_SESSION["username"]; ?></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php?logout='1'">Log out</a>
+              </li>
+            <?php else: ?>
+              <li class="nav-item">
+                <a class="nav-link" href="signup.php">Đăng kí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.php">Đăng nhập</a>
+              </li>
+            <?php endif; ?>
+              
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Liên hệ</a>
             </li>
-           <li class="nav-item">
-              <a class="nav-link" href="#">Quản trị</a>
+            <li>
+              
+
             </li>
               </ul>
           </div>
@@ -66,8 +96,16 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
+              <?php if (isset($_SESSION["username"])): ?> 
+                <p style="color:white;">
+                  <?php 
+                    echo $_SESSION["success"];
+                  ?>
+                </p>
+
+              <?php endif ?>
               <h1>Thi trực tuyến</h1>
-              <span class="subheading"><button class="btn btn-info active"><a href="select_exam.html">Vào thi ngay</a></button></span>
+              <span class="subheading"><button class="btn btn-info vtn active"><a href="select_exam.html">Vào thi ngay</a></button></span>
             </div>
           </div>
         </div>
