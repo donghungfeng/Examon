@@ -1,3 +1,4 @@
+<?php include('server.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,25 +14,26 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 <body>
 <div class="signup-form">
-    <form action="/examples/actions/confirmation.php" method="post">
-		<h2 style="text-align: center;">Đăng kí</h2>
+    <form action="signup.php" method="post">
+		<h2>Đăng kí</h2>
 		<hr>
+		<?php include('error.php'); ?>
         <div class="form-group">
 			<div class="input-group">
 				<span class="input-group-addon"><i class="fa fa-user"></i></span>
-				<input type="text" class="form-control" name="username" placeholder="Tên người dùng" required="required">
+				<input type="text" class="form-control" name="username" placeholder="Tên người dùng" value="<?php echo $user_name; ?>">
 			</div>
         </div>
         <div class="form-group">
 			<div class="input-group">
 				<span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
-				<input type="email" class="form-control" name="email" placeholder="Email" required="required">
+				<input type="email" class="form-control" name="email" placeholder="Email" value="<?php echo $email; ?>">
 			</div>
         </div>
 		<div class="form-group">
 			<div class="input-group">
 				<span class="input-group-addon"><i class="fa fa-lock"></i></span>
-				<input type="text" class="form-control" name="password" placeholder="Mật khẩu" required="required">
+				<input type="password" class="form-control" name="password" placeholder="Mật khẩu">
 			</div>
         </div>
 		<div class="form-group">
@@ -40,17 +42,16 @@
 					<i class="fa fa-lock"></i>
 					<i class="fa fa-check"></i>
 				</span>
-				<input type="text" class="form-control" name="confirm_password" placeholder="Xác nhận mật khẩu" required="required">
+				<input type="password" class="form-control" name="confirm_password" placeholder="Xác nhận mật khẩu" required="required">
 			</div>
         </div>
         <div class="form-group">
 		</div>
 		<div class="form-group">
-            <button type="submit" class="btn btn-primary btn-lg">Đăng kí</button>
-            <button type="submit" class="btn btn-primary btn-lg"><a href="login.html" style="color: white; text-decoration: none;">Đăng nhập ngay</a></button>
+            <button type="submit" name="signup" class="btn btn-primary btn-lg">Đăng kí</button>
         </div>
     </form>
-	<div class="text-center"> </div>
+	<div class="text-center"> <a href="login.html">Đăng nhập ngay</a></div>
 </div>
 </body>
 </html>
